@@ -1,0 +1,9 @@
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WINFORM\bin\Debug\TEAMUP_FRAMEWORK_MVC.exe.config
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WINFORM\bin\Debug\TEAMUP_FRAMEWORK_MVC.exe
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WINFORM\bin\Debug\TEAMUP_FRAMEWORK_MVC.pdb
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WINFORM\obj\Debug\TEAMUP_FRAMEWORK_WINFORM.csproj.AssemblyReference.cache
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WINFORM\obj\Debug\TEAMUP_FRAMEWORK_MVC.Properties.Resources.resources
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WINFORM\obj\Debug\TEAMUP_FRAMEWORK_WINFORM.csproj.GenerateResource.cache
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WINFORM\obj\Debug\TEAMUP_FRAMEWORK_WINFORM.csproj.CoreCompileInputs.cache
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WINFORM\obj\Debug\TEAMUP_FRAMEWORK_MVC.exe
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WINFORM\obj\Debug\TEAMUP_FRAMEWORK_MVC.pdb
