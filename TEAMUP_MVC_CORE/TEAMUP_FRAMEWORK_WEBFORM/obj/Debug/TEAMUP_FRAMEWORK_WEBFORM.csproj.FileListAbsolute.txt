@@ -73,3 +73,4 @@ C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\obj\Debug\T
 C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\obj\Debug\TEAMUP_FRAMEWORK_WEBFORM.csproj.CopyComplete
 C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\obj\Debug\TEAMUP_FRAMEWORK_WEBFORM.dll
 C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\obj\Debug\TEAMUP_FRAMEWORK_WEBFORM.pdb
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\obj\Debug\TEAMUP_FRAMEWORK_WEBFORM.csproj.AssemblyReference.cache

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEAMUP_FRAMEWORK_MVC", "TEA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEAMUP_FRAMEWORK_WEBPAGES", "TEAMUP_FRAMEWORK_WEBPAGES\TEAMUP_FRAMEWORK_WEBPAGES.csproj", "{9CFCCF3C-80A7-44A5-AC79-4E47EE852D11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empty_Template", "Empty_Template\Empty_Template.csproj", "{82E13D3B-A65F-42CD-8F65-AB131EF28548}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9CFCCF3C-80A7-44A5-AC79-4E47EE852D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CFCCF3C-80A7-44A5-AC79-4E47EE852D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CFCCF3C-80A7-44A5-AC79-4E47EE852D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E13D3B-A65F-42CD-8F65-AB131EF28548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E13D3B-A65F-42CD-8F65-AB131EF28548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E13D3B-A65F-42CD-8F65-AB131EF28548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E13D3B-A65F-42CD-8F65-AB131EF28548}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
