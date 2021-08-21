@@ -1,0 +1,17 @@
+﻿.canvas-container {
+    position: relative;
+}
+
+.canvas-item-hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.text-over-canvas {
+    position: relative;
+    z-index: 1
+}

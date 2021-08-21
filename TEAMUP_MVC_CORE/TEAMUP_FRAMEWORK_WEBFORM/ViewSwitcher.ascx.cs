@@ -21,7 +21,8 @@ namespace TEAMUP_FRAMEWORK_WEBFORM
         {
             // Determine current view
             var isMobile = WebFormsFriendlyUrlResolver.IsMobileView(new HttpContextWrapper(Context));
-            CurrentView = isMobile ? "Mobile" : "Desktop";
+            //CurrentView = isMobile ? "Mobile" : "Desktop";
+            CurrentView = "Desktop";
 
             // Determine alternate view
             AlternateView = isMobile ? "Desktop" : "Mobile";
