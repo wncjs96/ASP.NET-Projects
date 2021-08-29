@@ -150,3 +150,16 @@ D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\obj
 D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\obj\Debug\TEAMUP_FRAMEWORK_WEBFORM.csproj.CopyComplete
 D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\obj\Debug\TEAMUP_FRAMEWORK_WEBFORM.dll
 D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\obj\Debug\TEAMUP_FRAMEWORK_WEBFORM.pdb
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.dll
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.Security.dll
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Owin.dll
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.xml
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.Security.xml

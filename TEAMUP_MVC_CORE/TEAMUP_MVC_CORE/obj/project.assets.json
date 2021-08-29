@@ -8,21 +8,17 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\wncjs\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\wncjs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github-page\\asp\\ASP.NET-Projects\\TEAMUP_MVC_CORE\\TEAMUP_MVC_CORE\\TEAMUP_MVC_CORE.csproj",
+      "projectUniqueName": "C:\\Users\\wncjs\\source\\repos\\TEAMUP_MVC_CORE\\TEAMUP_MVC_CORE\\TEAMUP_MVC_CORE.csproj",
       "projectName": "TEAMUP_MVC_CORE",
-      "projectPath": "D:\\github-page\\asp\\ASP.NET-Projects\\TEAMUP_MVC_CORE\\TEAMUP_MVC_CORE\\TEAMUP_MVC_CORE.csproj",
+      "projectPath": "C:\\Users\\wncjs\\source\\repos\\TEAMUP_MVC_CORE\\TEAMUP_MVC_CORE\\TEAMUP_MVC_CORE.csproj",
       "packagesPath": "C:\\Users\\wncjs\\.nuget\\packages\\",
-      "outputPath": "D:\\github-page\\asp\\ASP.NET-Projects\\TEAMUP_MVC_CORE\\TEAMUP_MVC_CORE\\obj\\",
+      "outputPath": "C:\\Users\\wncjs\\source\\repos\\TEAMUP_MVC_CORE\\TEAMUP_MVC_CORE\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\wncjs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -67,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
