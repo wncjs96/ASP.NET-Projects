@@ -32,11 +32,18 @@ html, body {
     right:100px;
     bottom:50px;
     background-color:#808080;
-    padding: 80px;
+    padding: 30px;
+    width:350px;
+    height:600px;
     border-radius:10px;
     flex-direction:column;
-    flex-wrap: wrap;
+    overflow-y: auto;
 }
+#chat-room {
+    display:block;
+    word-break: break-all;
+}
+
 #btnChat {
     position: fixed;
     right: 10px;

@@ -69,7 +69,7 @@
         <asp:Button CssClass="btn btn-info" ID="btnChat" Text="CHAT" OnClientClick="btnChatClick(); return false;" runat="server" />
 
         <div id="chat-popup">
-            <label style="display: inline-table" id="chatroom"></label>
+            <label id="chat-room"></label>
             <input type="text" autocomplete="off" id="chat">
         </div>
 
