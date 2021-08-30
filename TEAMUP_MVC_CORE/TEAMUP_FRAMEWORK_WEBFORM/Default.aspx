@@ -1,10 +1,8 @@
 ﻿<%@ Page Title="ANYMATE" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TEAMUP_FRAMEWORK_WEBFORM._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
-
     <div class="jumbotron canvas-container">
-        <canvas class="canvas-item-hero"></canvas>
+        <canvas id="canvas-front" class="canvas-item-hero"></canvas>
 
         <div class="text-over-canvas">
             <h1>ANYMATE</h1>
@@ -13,7 +11,8 @@
             <p><a href="#" class="btn btn-primary btn-lg">Start Collaborating &raquo;</a></p>
         </div>
     </div>
-    <script src="Scripts/canvas.js" type="text/javascript"></script>
+
+
     <div class="row">
         <div class="col-md-4">
             <h2>Create a project</h2>
@@ -44,4 +43,8 @@
         </div>
     </div>
 
+</asp:Content>
+
+<asp:Content ID="ScriptCanvas" ContentPlaceHolderID="ScriptHolder" runat="server">
+    <script src="Scripts/canvas.js" type="text/javascript"></script>
 </asp:Content>
