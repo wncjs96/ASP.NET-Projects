@@ -163,3 +163,16 @@ C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microso
 C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.xml
 C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Users\wncjs\source\repos\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.Security.xml
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.dll
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.Security.dll
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Owin.dll
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.xml
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\github-page\asp\ASP.NET-Projects\TEAMUP_MVC_CORE\TEAMUP_FRAMEWORK_WEBFORM\bin\Microsoft.Owin.Security.xml

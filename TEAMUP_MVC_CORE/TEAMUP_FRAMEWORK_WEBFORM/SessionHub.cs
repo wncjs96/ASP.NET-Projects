@@ -12,5 +12,10 @@ namespace TEAMUP_FRAMEWORK_WEBFORM
         {
             Clients.All.Announce(announcement);
         }
+
+        public void Coord(Object data)
+        {
+            Clients.All.Coord(data);
+        }
     }
 }
