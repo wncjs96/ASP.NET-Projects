@@ -2,6 +2,7 @@
 html, body {
     width: 100%;
     height: 100%;
+    font-size: 100%;
     margin: 0;
 }
 
@@ -32,16 +33,17 @@ html, body {
     right:100px;
     bottom:50px;
     background-color:#808080;
-    padding: 30px;
-    width:350px;
-    height:600px;
-    border-radius:10px;
+    padding: 1.875em;
+    width:21.875em;
+    height:37.5em;
+    border-radius:0.625em;
     flex-direction:column;
     overflow-y: auto;
 }
 #chat-room {
     display:block;
     word-break: break-all;
+    font-size: 1.0rem;
 }
 
 #btnChat {
@@ -53,6 +55,7 @@ html, body {
 #chat {
     position: fixed;
     width: 100%;
+    max-width: 18.125em;
     bottom: inherit;
     transform: translate(0,-10px);
 }

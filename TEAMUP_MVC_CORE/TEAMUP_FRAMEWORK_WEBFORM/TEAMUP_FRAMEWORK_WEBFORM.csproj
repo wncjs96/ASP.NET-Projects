@@ -133,6 +133,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\anymate.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Database1.mdf" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -144,6 +145,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="MemberSearch.aspx" />
     <Content Include="Project.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\Chat.js" />
@@ -203,6 +205,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="MemberSearch.aspx.cs">
+      <DependentUpon>MemberSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberSearch.aspx.designer.cs">
+      <DependentUpon>MemberSearch.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SessionHub.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Contact.aspx.cs">
