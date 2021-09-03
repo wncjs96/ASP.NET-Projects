@@ -18,6 +18,7 @@ namespace TEAMUP_FRAMEWORK_WEBFORM.App_Start
             app.MapSignalR();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
         }
     }
 }

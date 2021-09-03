@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="anymateDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="drawingTBL">
+          <Key>
+            <PropertyRef Name="drawingID" />
+          </Key>
+          <Property Name="memberID" Type="char" MaxLength="18" Nullable="false" />
+          <Property Name="drawingID" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="drawingPath" Type="nchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="memberTBL">
+          <Key>
+            <PropertyRef Name="memberID" />
+          </Key>
+          <Property Name="memberID" Type="char" MaxLength="18" Nullable="false" />
+          <Property Name="memberPwd" Type="char" MaxLength="36" Nullable="false" />
+          <Property Name="memberEmail" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="memberName" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="memberDOB" Type="date" Nullable="false" />
+          <Property Name="memberPhone" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <Association Name="FK_drawingTBL_memberTBL">
+          <End Role="memberTBL" Type="Self.memberTBL" Multiplicity="1" />
+          <End Role="drawingTBL" Type="Self.drawingTBL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="memberTBL">
+              <PropertyRef Name="memberID" />
+            </Principal>
+            <Dependent Role="drawingTBL">
+              <PropertyRef Name="memberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="anymateDBModelStoreContainer">
+          <EntitySet Name="drawingTBL" EntityType="Self.drawingTBL" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="memberTBL" EntityType="Self.memberTBL" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_drawingTBL_memberTBL" Association="Self.FK_drawingTBL_memberTBL">
+            <End Role="memberTBL" EntitySet="memberTBL" />
+            <End Role="drawingTBL" EntitySet="drawingTBL" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="anymateDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="drawingTBL">
+          <Key>
+            <PropertyRef Name="drawingID" />
+          </Key>
+          <Property Name="memberID" Type="String" MaxLength="18" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="drawingID" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="drawingPath" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="memberTBL" Relationship="Self.FK_drawingTBL_memberTBL" FromRole="drawingTBL" ToRole="memberTBL" />
+        </EntityType>
+        <EntityType Name="memberTBL">
+          <Key>
+            <PropertyRef Name="memberID" />
+          </Key>
+          <Property Name="memberID" Type="String" MaxLength="18" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="memberPwd" Type="String" MaxLength="36" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="memberEmail" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="memberName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="memberDOB" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="memberPhone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="drawingTBLs" Relationship="Self.FK_drawingTBL_memberTBL" FromRole="memberTBL" ToRole="drawingTBL" />
+        </EntityType>
+        <Association Name="FK_drawingTBL_memberTBL">
+          <End Role="memberTBL" Type="Self.memberTBL" Multiplicity="1" />
+          <End Role="drawingTBL" Type="Self.drawingTBL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="memberTBL">
+              <PropertyRef Name="memberID" />
+            </Principal>
+            <Dependent Role="drawingTBL">
+              <PropertyRef Name="memberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="anymateDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="drawingTBLs" EntityType="Self.drawingTBL" />
+          <EntitySet Name="memberTBLs" EntityType="Self.memberTBL" />
+          <AssociationSet Name="FK_drawingTBL_memberTBL" Association="Self.FK_drawingTBL_memberTBL">
+            <End Role="memberTBL" EntitySet="memberTBLs" />
+            <End Role="drawingTBL" EntitySet="drawingTBLs" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="anymateDBModelStoreContainer" CdmEntityContainer="anymateDBEntities">
+          <EntitySetMapping Name="drawingTBLs">
+            <EntityTypeMapping TypeName="anymateDBModel.drawingTBL">
+              <MappingFragment StoreEntitySet="drawingTBL">
+                <ScalarProperty Name="memberID" ColumnName="memberID" />
+                <ScalarProperty Name="drawingID" ColumnName="drawingID" />
+                <ScalarProperty Name="drawingPath" ColumnName="drawingPath" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="memberTBLs">
+            <EntityTypeMapping TypeName="anymateDBModel.memberTBL">
+              <MappingFragment StoreEntitySet="memberTBL">
+                <ScalarProperty Name="memberID" ColumnName="memberID" />
+                <ScalarProperty Name="memberPwd" ColumnName="memberPwd" />
+                <ScalarProperty Name="memberEmail" ColumnName="memberEmail" />
+                <ScalarProperty Name="memberName" ColumnName="memberName" />
+                <ScalarProperty Name="memberDOB" ColumnName="memberDOB" />
+                <ScalarProperty Name="memberPhone" ColumnName="memberPhone" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

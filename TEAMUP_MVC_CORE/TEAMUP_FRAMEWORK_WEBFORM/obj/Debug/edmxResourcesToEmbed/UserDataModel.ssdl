@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="anymateDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="drawingTBL">
+    <Key>
+      <PropertyRef Name="drawingID" />
+    </Key>
+    <Property Name="memberID" Type="char" MaxLength="18" Nullable="false" />
+    <Property Name="drawingID" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="drawingPath" Type="nchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="memberTBL">
+    <Key>
+      <PropertyRef Name="memberID" />
+    </Key>
+    <Property Name="memberID" Type="char" MaxLength="18" Nullable="false" />
+    <Property Name="memberPwd" Type="char" MaxLength="36" Nullable="false" />
+    <Property Name="memberEmail" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="memberName" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="memberDOB" Type="date" Nullable="false" />
+    <Property Name="memberPhone" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK_drawingTBL_memberTBL">
+    <End Role="memberTBL" Type="Self.memberTBL" Multiplicity="1" />
+    <End Role="drawingTBL" Type="Self.drawingTBL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="memberTBL">
+        <PropertyRef Name="memberID" />
+      </Principal>
+      <Dependent Role="drawingTBL">
+        <PropertyRef Name="memberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="anymateDBModelStoreContainer">
+    <EntitySet Name="drawingTBL" EntityType="Self.drawingTBL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="memberTBL" EntityType="Self.memberTBL" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_drawingTBL_memberTBL" Association="Self.FK_drawingTBL_memberTBL">
+      <End Role="memberTBL" EntitySet="memberTBL" />
+      <End Role="drawingTBL" EntitySet="drawingTBL" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
