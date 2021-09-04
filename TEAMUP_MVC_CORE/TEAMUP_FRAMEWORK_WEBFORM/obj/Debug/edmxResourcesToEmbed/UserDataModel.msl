@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="anymateDBModelStoreContainer" CdmEntityContainer="anymateDBEntities">
+    <EntitySetMapping Name="drawingTBLs">
+      <EntityTypeMapping TypeName="anymateDBModel.drawingTBL">
+        <MappingFragment StoreEntitySet="drawingTBL">
+          <ScalarProperty Name="memberID" ColumnName="memberID" />
+          <ScalarProperty Name="drawingID" ColumnName="drawingID" />
+          <ScalarProperty Name="drawingPath" ColumnName="drawingPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="memberTBLs">
+      <EntityTypeMapping TypeName="anymateDBModel.memberTBL">
+        <MappingFragment StoreEntitySet="memberTBL">
+          <ScalarProperty Name="memberID" ColumnName="memberID" />
+          <ScalarProperty Name="memberPwd" ColumnName="memberPwd" />
+          <ScalarProperty Name="memberEmail" ColumnName="memberEmail" />
+          <ScalarProperty Name="memberName" ColumnName="memberName" />
+          <ScalarProperty Name="memberDOB" ColumnName="memberDOB" />
+          <ScalarProperty Name="memberPhone" ColumnName="memberPhone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
